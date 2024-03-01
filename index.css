@@ -1,0 +1,60 @@
+body {
+    background-image: url("rock.jpg");
+    background-size: cover;
+    font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 1px black;
+}
+
+.container {
+    max-width: 400px;
+    min-width: 300px;
+    background: #f5f1ed;
+    border: 4px solid #252323;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #70798c;
+    border: 2px solid #a99985;
+}
+
+#increment-btn:hover {
+    background: #6b9080;
+    border: 2px solid #70798c;
+}
+
+#save-btn {
+    background: #a99985;
+    border: 2px solid #70798c;
+}
+
+#save-btn:hover {
+    background: #6b9080;
+    border: 2px solid #a99985;
+}
